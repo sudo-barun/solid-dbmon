@@ -19,7 +19,7 @@ const App = () => {
       <tbody>
         <For each={state.databases}>
           {db => {
-            const dbName = db.dbName;
+            const dbName = db.dbname;
             return (
               <tr>
                 <td class="dbname" textContent={dbName} />
